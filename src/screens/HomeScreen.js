@@ -4,6 +4,7 @@ import Logo from '../components/Logo';
 import Button from '../components/Button';
 import TextInput from '../components/TextInput';
 import { emailValidator, passwordValidator } from '../core/utils';
+import 'localstorage-polyfill'
 
 const LoginScreen = ({ navigation }) => {
   const [email, setEmail] = useState({ value: '', error: '' });
