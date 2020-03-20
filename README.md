@@ -2,10 +2,7 @@ How to use?
 1. Download or clone this repo.
 
 2. Install dependencies.
-
-npm install
-// or
-yarn install
+npm install or yarn install
 
 3. Run project on iOS / Android.
  npm run ios // npm run android
